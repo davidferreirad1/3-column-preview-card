@@ -1,3 +1,6 @@
+<a href="https://davidferreirad1.github.io/3-column-preview-card/" target="_blank">CLICK HERE TO OPEN</a>
+
+
 # Frontend Mentor - 3-column preview card component
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
