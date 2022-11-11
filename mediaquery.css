@@ -2,6 +2,17 @@
 - Desktop: 1440px
 */
 
+/* iphone xr:414
+iphone 12:390
+pixel 5:393
+galaxy s20:412
+galaxy a51/71: 412
+
+
+
+
+*/
+
 @media (max-width: 375px){
     #container{
         flex-wrap: wrap;
@@ -11,6 +22,21 @@
     .sedans{
         border-radius: 10px 10px 0px 0px;
     }
+    .luxury{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+@media (max-width:414px){
+    #container{
+        flex-wrap: wrap;
+        transform: translate(0%,0%);
+    }
+    
+    .sedans{
+        border-radius: 10px 10px 0px 0px;
+    }
+
     .luxury{
         border-radius: 0px 0px 10px 10px;
     }
