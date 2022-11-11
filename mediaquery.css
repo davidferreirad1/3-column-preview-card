@@ -13,20 +13,6 @@ galaxy a51/71: 412
 
 */
 
-@media (max-width: 375px){
-    #container{
-        flex-wrap: wrap;
-        transform: translate(0%,0%);
-
-    }
-    .sedans{
-        border-radius: 10px 10px 0px 0px;
-    }
-    .luxury{
-        border-radius: 0px 0px 10px 10px;
-    }
-}
-
 @media (max-width:414px){
     #container{
         flex-wrap: wrap;
