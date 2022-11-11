@@ -1,0 +1,141 @@
+@charset"UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --sedan-laranja:hsl(31, 77%, 52%);
+    --suvs-cyan:hsl(184, 100%, 22%);
+    --luxury-cyanescuro:hsl(179, 100%, 13%);
+
+    --branco-transparente:hsla(0, 0%, 100%, 0.75);
+    --cinza:hsl(0, 0%, 95%);
+
+    --font:'Big Shoulders Display', cursive;
+    --font2:'Big Shoulders Display', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsla(0, 2%, 51%, 0.5) ;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    transform: translate(0%,50%);
+
+    transition: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.titulo{
+    text-align: start;
+    margin: 30px;
+    font-family: var(--font2);
+    color: var(--cinza);
+    font-size: 40px;
+}
+
+.paragrafo{
+    font-family: var(--font);
+    color: var(--branco-transparente);
+    font-size: 18px;
+    margin: 30px;
+}
+
+img{
+    margin: 30px 0px 0px 20px;
+    width: 80px;
+}
+
+    /* Sedan */
+.sedans{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--sedan-laranja);
+    width: 250px;
+    height: 450px; 
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sedans > button{
+    color: var(--sedan-laranja);
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+}
+
+.sedans > button:hover{
+    cursor: pointer;
+    background-color: var(--sedan-laranja);
+    color: white;
+    border: 2px solid;
+}
+           /*Sedan  */
+
+
+
+        /* suvs */
+.suvs{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--suvs-cyan);
+    width: 250px;
+    height: 450px; 
+}
+
+.suvs > button{
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    color: var(--suvs-cyan);
+}
+
+.suvs > button:hover{
+    cursor: pointer;
+    background-color: var(--suvs-cyan);
+    color: white;
+    border: 2px solid;
+}
+
+        /* suvs */
+
+        /* luxury */
+.luxury{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--luxury-cyanescuro);
+    width: 250px;
+    height: 450px; 
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.luxury > button{
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    color: var(--luxury-cyanescuro);
+}
+
+.luxury > button:hover{
+    cursor: pointer;
+    background-color: var(--luxury-cyanescuro);
+    color: white;
+    border: 2px solid;
+
+}
+        /* luxury */
